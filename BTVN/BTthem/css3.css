@@ -1,0 +1,155 @@
+*:not(tr) {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+.main {
+  height: 1530px;
+  width: 650px;
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  padding: 40px 40px 40px 40px;
+}
+img {
+  width: 100%;
+  object-position: top;
+  object-fit: contain;
+}
+.p1 {
+  font-size: 40px;
+  line-height: 100px;
+  font-family: cursive, Arial, sans-serif;
+}
+.p2 {
+  color: hsl(30, 18%, 87%);
+  font-size: 14px;
+  display: inline;
+}
+.main1 {
+  height: 155px;
+  width: 100%;
+  margin: 30px 0px 30px 0px;
+  border-radius: 10px;
+  padding: 20px 30px 20px 30px;
+  background-color: hsl(330, 100%, 98%);
+}
+.on1 {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+  font-size: 18px;
+}
+ul li::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: 15px;
+}
+.on3 {
+  position: relative;
+  left: 20px;
+  line-height: 30px;
+}
+.on2 {
+  color: hsl(30, 10%, 34%);
+  font-weight: bold;
+  font-size: 14px;
+  display: inline;
+}
+.p3 {
+  color: hsl(14, 45%, 36%);
+  font-size: 25px;
+  font-family: cursive, Arial, sans-serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.p4 {
+  color: hsl(30, 18%, 87%);
+  font-size: 14px;
+  line-height: 30px;
+  padding-left: 15px;
+}
+hr {
+  background-color: hsl(30, 18%, 87%);
+  padding-top: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.p5 {
+  padding-left: 20px;
+}
+ol li::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: cursive;
+}
+li {
+  line-height: 25px;
+  padding-left: 15px;
+}
+
+ol {
+  padding-left: 20px;
+}
+.t1 {
+  width: 100%;
+  padding-top: 10px;
+}
+.t2 {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  font-family: cursive;
+  padding-bottom: 15px;
+  font-size: 12px;
+  padding: 10px 0px 10px 20px;
+}
+td {
+  padding-left: 20px;
+}
+tr.with-border-bottom td {
+  border-bottom: 2px solid hsl(30, 18%, 87%);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.t3 {
+  color: hsl(30, 18%, 87%);
+  font-size: 14px;
+  display: inline-block;
+  height: 20px;
+  width: 50%;
+}
+.t4 {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 12px;
+  text-align: right;
+  display: inline-block;
+}
+.t31 {
+  color: hsl(30, 18%, 87%);
+  font-size: 14px;
+  display: inline-block;
+  height: 20px;
+  width: 50%;
+  padding-top: 10px;
+}
+.t41 {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 12px;
+  text-align: right;
+  display: inline-block;
+}

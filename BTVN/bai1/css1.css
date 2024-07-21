@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+.main {
+  width: 420px; /* Chiều rộng của box */
+  height: 450px; /* Chiều cao của box */
+  background-color: #fff8f4; /* Màu nền của box */
+  border: 2px solid #fff8f4; /* Đường viền của box */
+  border-radius: 10px; /* Bo tròn góc của box */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Đổ bóng cho box */
+  margin: 150px auto; /* Canh giữa box và tạo khoảng cách xung quanh */
+  padding: 30px 65px 30px 65px;
+}
+h1 {
+  line-height: 62px;
+}
+.phong1 {
+  color: #aba7a4;
+  font-size: 14px;
+}
+.phong2 {
+  height: 32px;
+  width: 300px;
+  background-color: #fafaf7;
+  border: 1px solid #30302e;
+  border-radius: 5px;
+  margin: 15px auto;
+}
+.phong3 {
+  color: #9a9a99;
+  text-align: center;
+  line-height: 31px;
+  font-size: 14px;
+}
+.phong4 {
+  height: 32px;
+  width: 300px;
+  background-color: #cdcdc7;
+  border: 1px solid #cdcdc7;
+  border-radius: 5px;
+  margin: 15px auto;
+  padding: 0px 0px 0px 10px;
+}
+.phong5 {
+  line-height: 31px;
+  font-size: 12px;
+  color: #747471;
+}
+.phong6 {
+  height: 40px;
+  width: 300px;
+  background-color: #f76808;
+  border: 1px solid #f76808;
+  border-radius: 10px;
+  margin: 15px auto;
+}
+.phong7 {
+  color: #fafaf7;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
